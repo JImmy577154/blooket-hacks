@@ -12,10 +12,10 @@
             if (window.location.pathname != '/play/hack') {
                 alert('You must be in a crypto hack game mode to use this hack!');
             } else {
-                let amount = Number(parseFloat(prompt('How much crypto do you want?')));
-                reactHandler().stateNode.setState({ crypto2: amount, crypto: amount });
+                let amount = Number(parseFloat(prompt('123456789876543212345678765432123456789?')));
+                reactHandler().stateNode.setState({ crypto2: 1000000, crypto: 10000000000000 });
         
-                alert('Crypto added!');
+                alert('123456789876543212345678765432123456!');
             };
 })();
 
