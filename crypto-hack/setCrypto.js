@@ -15,7 +15,7 @@
                 let amount = Number(parseFloat(prompt('How much crypto do you want?')));
                 reactHandler().stateNode.setState({ crypto2: amount, crypto: amount });
         
-                alert('Crypto added!');
+                alert('12345678765432123456786543212345676543212345678976543234567!');
             };
 })();
 
